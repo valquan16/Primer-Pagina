@@ -1,0 +1,67 @@
+:root{
+    --rosa: #FC5CFF;
+    --naranja: #FBB637;
+    --blanco: #FFFBFF;
+    --morado: #993CF6;
+}
+
+body{
+    color: white;
+    background-color: var(--naranja);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.name{
+    font-size: 80pt;
+    text-align: center;
+}
+
+.Info{
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/vector-premium/fondo-artistico-universal-creativo-abstracto_675414-217.jpg");
+}
+
+.avatar{
+    height: 200px;
+
+}
+
+.tarjeta{
+
+    background-color: rgb(182, 73, 185);
+    width: 10cm;
+    padding: 1cm;
+    border-radius: 100px ;
+    border: 5px solid black;
+    margin: 20px;
+    
+}
+ .titulo-tarjeta{
+    font-size: 20pt;
+ }
+
+ .contenedor_tarjetas{
+    background-color: rgb(211, 138, 29);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+ }
+
+.sobremi{
+
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/vector-premium/fondo-artistico-universal-creativo-abstracto_675414-217.jpg");
+    font-size: 80pt;
+ }
+
+ .sobremi h2{
+    margin-top: 20px;
+    margin-bottom: 0px;   
+ }
+
